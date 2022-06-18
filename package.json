@@ -1,0 +1,31 @@
+{
+  "name": "enrollment_information_system_backend",
+  "version": "1.0.0",
+  "description": "招生信息系统后端",
+  "main": "app.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development nodemon ./app.js",
+    "rc": "cross-env NODE_ENV=production nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "chenshone",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-json": "^2.0.2",
+    "koa-jwt": "^4.0.3",
+    "koa-logger": "^3.2.1",
+    "koa-onerror": "^4.2.0",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^10.0.0",
+    "mongoose": "^6.2.4",
+    "mongoose-paginate": "^5.0.3",
+    "mongoose-unique-validator": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
